@@ -1,6 +1,11 @@
 server:
   server-port: 8767
   port: 8881
+data:
+  env: config-eureka-dev
+  user:
+    username: eureka-client-user
+    password: 1291029102
 eureka:
   instance:
     hostname: localhost
